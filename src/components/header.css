@@ -1,0 +1,62 @@
+
+
+.header {
+    padding: 10px;
+    background-color:#fff;
+    color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .header .header-wrapper{
+
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      margin: auto;
+      width: 10%;
+      padding-top: 1rem;
+  }
+  .header-button{
+    padding: 0.6rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 2px;
+    background-color: #fff;
+    color:white;
+}
+
+  .header-button:hover{
+    background-color: #fff;
+    color:black;
+    transform: scale(1.2);
+  }
+
+  .header-icon{
+      font-size: 22px;
+  }
+
+  .fire{
+      color:red;
+  }
+  .hurricane{
+      color: #A9A9A9;
+  }
+  .volcano{
+      color:firebrick;
+  }
+  .all{
+      color:#000;
+  }

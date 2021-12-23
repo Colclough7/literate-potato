@@ -1,0 +1,17 @@
+
+
+.fire-location-icon{
+    font-size:2rem;
+    color:red;
+    cursor: pointer;
+}
+.hurricane-location-icon{
+    font-size: 7rem;
+    color:black;
+    cursor: pointer;
+}
+.volcano-location-icon{
+    font-size: 3rem;
+    color:firebrick;
+    cursor: pointer;
+}
